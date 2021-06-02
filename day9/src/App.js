@@ -79,7 +79,7 @@ export class App extends Component {
         </Switch>
         </Router>
         <AddAlbum receiveFunc = {this.receiver}/>
-        {/* <Album artist={this.state.artist} album_title={this.state.album_title} album_cover={this.state.album_cover}/> */}
+        
         <Albums albums={this.state.albums} deleteFunc={this.delete}/> 
       </div>
       
